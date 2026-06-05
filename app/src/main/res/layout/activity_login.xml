@@ -20,8 +20,7 @@
             android:layout_height="80dp"
             android:layout_gravity="center"
             android:layout_marginBottom="16dp"
-            android:src="@drawable/ic_shield_check"
-            app:tint="@color/primary" />
+            android:src="@drawable/ligtas_app_logo" />
 
         <TextView
             android:layout_width="wrap_content"

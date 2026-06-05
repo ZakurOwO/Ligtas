@@ -16,11 +16,10 @@
             android:layout_width="64dp"
             android:layout_height="64dp"
             android:layout_marginTop="16dp"
-            android:src="@drawable/ic_shield_check"
+            android:src="@drawable/ligtas_app_logo"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:tint="@color/primary"
             android:contentDescription="LigTAS Logo" />
 
         <TextView
