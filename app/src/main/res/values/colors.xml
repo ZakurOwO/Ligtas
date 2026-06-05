@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Brand Colors -->
+    <color name="primary">#2563EB</color>
+    <color name="primary_light">#DBEAFE</color>
+    <color name="primary_dark">#1D4ED8</color>
+    <color name="brand_blue">#2563EB</color>
+
+    <!-- Severity Colors -->
+    <color name="severity_critical">#DC2626</color>
+    <color name="severity_evacuation">#EA580C</color>
+    <color name="severity_warning">#D97706</color>
+    <color name="severity_info">#2563EB</color>
+
+    <!-- Severity Backgrounds & Badges -->
+    <color name="severity_critical_bg">#FFF1F2</color>
+    <color name="severity_evacuation_bg">#FFF7ED</color>
+    <color name="severity_warning_bg">#FFFBEB</color>
+    <color name="severity_info_bg">#EFF6FF</color>
+
+    <color name="critical_badge_bg">#FEE2E2</color>
+    <color name="evacuation_badge_bg">#FFEDD5</color>
+    <color name="warning_badge_bg">#FEF3C7</color>
+
+    <!-- Severity Borders -->
+    <color name="critical_border">#FCA5A5</color>
+    <color name="evacuation_border">#FDBA74</color>
+    <color name="warning_border">#FCD34D</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#111827</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_tertiary">#9CA3AF</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- Background Colors -->
+    <color name="bg_primary">#FFFFFF</color>
+    <color name="bg_secondary">#F9FAFB</color>
+    <color name="bg_card">#FFFFFF</color>
+    <color name="bg_skeleton">#EEF2FF</color>
+    <color name="bg_overlay">#F3F4F6</color>
+
+    <!-- Status Icon Colors & Backgrounds -->
+    <color name="icon_orange">#EA580C</color>
+    <color name="icon_orange_bg">#FFF7ED</color>
+    <color name="icon_blue">#2563EB</color>
+    <color name="icon_blue_bg">#EFF6FF</color>
+    <color name="icon_teal">#0D9488</color>
+    <color name="icon_teal_bg">#F0FDFA</color>
+    <color name="icon_green">#16A34A</color>
+    <color name="icon_green_bg">#F0FDF4</color>
+    <color name="icon_red">#DC2626</color>
+    <color name="icon_red_bg">#FFF1F2</color>
+    <color name="icon_yellow">#CA8A04</color>
+    <color name="icon_yellow_bg">#FEFCE8</color>
+    <color name="icon_purple">#7C3AED</color>
+    <color name="icon_purple_bg">#F5F3FF</color>
+
+    <!-- Divider / Border -->
+    <color name="divider">#E5E7EB</color>
+
+    <!-- Navigation -->
+    <color name="nav_selected">#2563EB</color>
+    <color name="nav_unselected">#9CA3AF</color>
+    <color name="nav_bg">#FFFFFF</color>
+
+    <!-- Emergency & Call -->
+    <color name="emergency_red">#DC2626</color>
+    <color name="call_green">#16A34A</color>
+
+    <!-- Legacy / Compatibility -->
+    <color name="critical_bg">#FFF1F2</color>
+    <color name="critical_text">#DC2626</color>
+    <color name="evacuation_bg">#FFF7ED</color>
+    <color name="evacuation_text">#EA580C</color>
+    <color name="warning_bg">#FFFBEB</color>
+    <color name="warning_text">#D97706</color>
+</resources>

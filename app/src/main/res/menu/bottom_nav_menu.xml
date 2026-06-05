@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_alerts"
+        android:icon="@drawable/ic_bell"
+        android:title="Alerts" />
+    <item
+        android:id="@+id/nav_report"
+        android:icon="@drawable/ic_report"
+        android:title="Report" />
+    <item
+        android:id="@+id/nav_emergency"
+        android:icon="@drawable/ic_phone"
+        android:title="Emergency" />
+    <item
+        android:id="@+id/nav_safety"
+        android:icon="@drawable/ic_shield"
+        android:title="Safety" />
+    <item
+        android:id="@+id/nav_weather"
+        android:icon="@drawable/ic_weather"
+        android:title="Weather" />
+</menu>

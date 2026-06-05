@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LigTAS</string>
+
+    <!-- Bottom Nav -->
+    <string name="nav_alerts">Alerts</string>
+    <string name="nav_report">Report</string>
+    <string name="nav_emergency">Emergency</string>
+    <string name="nav_safety">Safety</string>
+    <string name="nav_weather">Weather</string>
+
+    <!-- Alerts Screen -->
+    <string name="flood_alerts">Flood Alerts</string>
+    <string name="label_warning">Warning</string>
+    <string name="label_critical">Critical</string>
+    <string name="label_evacuation">Evacuation</string>
+    <string name="label_all_barangays">All Barangays</string>
+    <string name="label_riverside">Riverside</string>
+    <string name="label_san_jose">San Jose</string>
+    <string name="no_alerts_title">All clear! No active alerts.</string>
+    <string name="no_alerts_desc">Check back later or refresh to stay updated.</string>
+
+    <!-- Report Screen -->
+    <string name="report_flood">Report Flood</string>
+    <string name="upload_flood_photo">Upload Flood Photo</string>
+    <string name="tap_to_take_photo">Tap to take or select a photo</string>
+    <string name="location_barangay">Location / Barangay</string>
+    <string name="select_barangay">Select barangay</string>
+    <string name="description_label">Description</string>
+    <string name="description_hint">Describe the flood situation (water level, affected areas, road conditions…)</string>
+    <string name="submit_report">Submit Report</string>
+    <string name="detecting_location">Detecting location…</string>
+    <string name="location_detected">📍 Location detected</string>
+
+    <!-- Emergency Screen -->
+    <string name="emergency_contacts">Emergency Contacts</string>
+    <string name="emergency_sos">Emergency SOS</string>
+    <string name="tap_to_call_911">Tap to call 911 immediately</string>
+    <string name="mdrrmo">MDRRMO</string>
+    <string name="barangay_hall">Barangay Hall</string>
+    <string name="philippine_national_police">Philippine National Police</string>
+    <string name="bureau_of_fire">Bureau of Fire</string>
+    <string name="number_911">911</string>
+    <string name="number_barangay">(02) 8888–1234</string>
+    <string name="number_pnp">117</string>
+
+    <!-- Safety Screen -->
+    <string name="safety_tips">Safety Tips</string>
+    <string name="welcome_user">Hi, %1$s</string>
+    <string name="good_morning">Good morning, %1$s</string>
+    <string name="good_afternoon">Good afternoon, %1$s</string>
+    <string name="good_evening">Good evening, %1$s</string>
+    <string name="go_bag_checklist">Flood Safety Checklist</string>
+    <string name="go_bag_progress_format">%1$d of %2$d items packed</string>
+    <string name="go_bag_complete">Ready to go! All items packed</string>
+    <string name="go_bag_status_start">Start packing your emergency kit</string>
+    <string name="go_bag_status_progress">Keep going! You\'re getting prepared</string>
+    <string name="before_the_flood">Before the Flood</string>
+    <string name="before_flood_sub">Preparation is key</string>
+    <string name="during_the_flood">During the Flood</string>
+    <string name="during_flood_sub">Stay safe and alert</string>
+    <string name="after_the_flood">After the Flood</string>
+    <string name="after_flood_sub">Recovery and safety</string>
+    <string name="evacuation_guide">Evacuation Guide</string>
+    <string name="evacuation_guide_sub">Know when and how to leave</string>
+    <string name="water_safety">Water Safety</string>
+    <string name="water_safety_sub">Avoid contaminated water</string>
+    <string name="first_aid_basics">First Aid Basics</string>
+    <string name="first_aid_basics_sub">Help in emergencies</string>
+    <string name="last_updated_format">Tips updated %1$s</string>
+    <string name="just_now">just now</string>
+
+    <!-- Weather Screen -->
+    <string name="weather">Weather</string>
+    <string name="manila_philippines">Manila, Philippines</string>
+</resources>

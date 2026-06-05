@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="40dp"
+    android:height="40dp"
+    android:viewportWidth="40"
+    android:viewportHeight="40">
+    <!-- Image frame -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#9CA3AF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M32,8H8a2,2 0,0 0,-2 2v20a2,2 0,0 0,2 2h24a2,2 0,0 0,2 -2V10a2,2 0,0 0,-2 -2z" />
+    <!-- Mountain -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#9CA3AF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M6,28l8,-8 5,5 4,-4 9,7" />
+    <!-- Sun circle -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#9CA3AF"
+        android:strokeWidth="2"
+        android:pathData="M14,16m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+    <!-- Plus sign -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#9CA3AF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M30,4v8" />
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#9CA3AF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M26,8h8" />
+</vector>

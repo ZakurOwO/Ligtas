@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_secondary">
+
+    <!-- Modern Top Bar -->
+    <LinearLayout
+        android:id="@+id/safety_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:background="@drawable/bg_topbar_modern"
+        android:elevation="0dp"
+        android:transitionName="top_bar">
+
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/ic_shield"
+            app:tint="@color/primary"
+            android:contentDescription="Safety Icon" />
+
+        <TextView
+            android:id="@+id/tv_safety_header_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="16dp"
+            android:text="@string/safety_tips"
+            android:textSize="20sp"
+            android:textColor="@color/text_primary"
+            android:fontFamily="sans-serif-black" />
+
+        <TextView
+            android:id="@+id/tv_user_initial"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="U"
+            android:textSize="16sp"
+            android:textColor="@color/primary"
+            android:textStyle="bold"
+            android:background="@drawable/bg_avatar" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/safety_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        android:clipToPadding="false">
+
+        <LinearLayout
+            android:id="@+id/safety_content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:paddingBottom="140dp"
+            android:layoutAnimation="@anim/layout_animation_fall_down">
+
+            <!-- Go Bag Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/item_gobag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="2dp"
+                app:strokeColor="@color/divider"
+                app:strokeWidth="1dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <FrameLayout
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:background="@drawable/bg_icon_orange"
+                            android:layout_marginEnd="16dp">
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/ic_gobag"
+                                app:tint="@color/icon_orange"
+                                android:contentDescription="@null" />
+                        </FrameLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/go_bag_checklist"
+                                android:textSize="18sp"
+                                android:textColor="@color/text_primary"
+                                android:fontFamily="sans-serif-black" />
+
+                            <TextView
+                                android:id="@+id/tv_gobag_progress_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/go_bag_status_start"
+                                android:textSize="13sp"
+                                android:textColor="@color/text_secondary"
+                                android:layout_marginTop="2dp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/ic_chevron_down"
+                            app:tint="@color/primary"
+                            android:contentDescription="@null" />
+                    </LinearLayout>
+
+                    <ProgressBar
+                        android:id="@+id/pb_gobag"
+                        style="@android:style/Widget.ProgressBar.Horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="8dp"
+                        android:layout_marginTop="16dp"
+                        android:max="100"
+                        android:progress="0"
+                        android:progressTint="@color/primary"
+                        android:progressBackgroundTint="@color/bg_skeleton"
+                        android:progressBackgroundTintMode="src_over" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Tip Cards -->
+            <include layout="@layout/item_safety_tip" android:id="@+id/item_before_flood" />
+            <include layout="@layout/item_safety_tip" android:id="@+id/item_during_flood" />
+            <include layout="@layout/item_safety_tip" android:id="@+id/item_after_flood" />
+            <include layout="@layout/item_safety_tip" android:id="@+id/item_evacuation_guide" />
+            <include layout="@layout/item_safety_tip" android:id="@+id/item_water_safety" />
+            <include layout="@layout/item_safety_tip" android:id="@+id/item_first_aid" />
+
+            <TextView
+                android:id="@+id/tv_last_updated"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:gravity="center"
+                android:text="Checking for updates..."
+                android:textColor="@color/text_tertiary"
+                android:textSize="12sp"
+                android:fontFamily="sans-serif-medium" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
